@@ -1,5 +1,7 @@
 # embassy-embedded-hal
 
+## **THIS FORK IS NO LONGER NEEDED.** Upstream embassy-embedded-hal has added support for the latest embassy crates.
+
 Collection of utilities to use `embedded-hal` and `embedded-storage` traits with Embassy.
 
 - Shared SPI and I2C buses, both blocking and async, with a `SetConfig` trait allowing changing bus configuration (e.g. frequency) between devices on the same bus.
